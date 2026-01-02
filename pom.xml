@@ -29,8 +29,11 @@
 	<properties>
 		<java.version>25</java.version>
 	</properties>
+	
 	<dependencies>
+	
 		<dependency>
+		
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-h2console</artifactId>
 		</dependency>
@@ -62,7 +65,9 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
+			
 		</dependency>
+		
 	</dependencies>
 
 	<build>
